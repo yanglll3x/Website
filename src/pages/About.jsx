@@ -176,7 +176,7 @@ const About = () => {
                   
                   <ul className='mt-2 list-disc ml-5 space-y-2'>
                     {educations.points.map((point, index) => (
-                      <li key={`experience-point-${index}`} className='text-black-500/50 font-normal pl-1 text-sm'>
+                      <li key={`educations-point-${index}`} className='text-black-500/50 font-normal pl-1 text-sm'>
                         {point}
                       </li>
                     ))}

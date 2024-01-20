@@ -7,9 +7,11 @@ import Display from './Display';
 </div> */}
 
 const Home = () => {
+  
+
   return (
-    <section className='w-full h-screen relative'>
-      <div className='absolute top-1/2 left 1-2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
+    <section>
+      <div>
         <Display />
       </div>
     </section>
@@ -17,3 +19,6 @@ const Home = () => {
 }
 
 export default Home
+
+// className='w-full h-screen relative'
+// className='absolute top-1/2 left 1-2 transform -translate-x-1/2 -translate-y-1/2 z-10'
