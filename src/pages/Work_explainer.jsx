@@ -1,6 +1,5 @@
 import React from 'react';
 
-<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
 import { Link, useParams } from 'react-router-dom';
@@ -15,12 +14,6 @@ import PearlandCoin_thumbnail from '../assets/images/PearlandCoin_thumbnail.png'
 
 import ae from "../assets/icons/ae.svg";
 import ai_logo from "../assets/icons/ai_logo.svg";
-=======
-import pearlVideo1 from '../assets/images/pearlVideo1.png';
-import pearlVideo2 from '../assets/images/pearlVideo2.png';
-import pearlVideo3 from '../assets/images/pearlVideo3.png';
-import pearlVideo4 from '../assets/images/pearlVideo4.png';
->>>>>>> 7b8fed01786f62f2a07586ba66177b68b92dd562
 
 
 const Work_explainer = () => {
@@ -33,14 +26,6 @@ const Work_explainer = () => {
   return (
     <section className='max-w-5xl mx-auto sm:p-11 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)]'>
       <div className='flex flex-col w-full items-center'>
-<<<<<<< HEAD
-=======
-        <img src={pearlVideo1} alt='ExplainVideoImage1' className='w-full h-auto' />
-        <img src={pearlVideo2} alt='ExplainVideoImage2' className='w-full h-auto' />
-        <img src={pearlVideo3} alt='ExplainVideoImage3' className='w-full h-auto' />
-        <img src={pearlVideo4} alt='ExplainVideoImage4' className='w-full h-auto' />
-      </div>
->>>>>>> 7b8fed01786f62f2a07586ba66177b68b92dd562
 
         {/* 图标？ */}
         {/* <div className='absolute top-30 right-5 sm:w-[50px] w-[30px] sm:h-[50px] h-[30px] rounded-full flex justify-center items-center'>
