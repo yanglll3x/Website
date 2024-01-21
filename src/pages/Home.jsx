@@ -7,7 +7,7 @@ import Display from './Display';
 </div> */}
 
 const Home = () => {
-  
+
 
   return (
     <section>
