@@ -11,6 +11,7 @@ import Work_9316arduino from './pages/Work_9316arduino';
 import Work_p5js from './pages/Work_p5js';
 import Work_vuwaudio from './pages/Work_vuwaudio';
 import Work_gamedesign from './pages/Work_gamedesign';
+import Home_work from './pages/Home_work';
 
 const App = () => {
   return (
@@ -30,7 +31,9 @@ const App = () => {
                 <Route path="/work_p5js" element={<Work_p5js />} />
                 <Route path="/work_vuwaudio" element={<Work_vuwaudio />} />
                 <Route path="/work_gamedesign" element={<Work_gamedesign />} />
+                {/* <Route path="/home_work" element={<Home_work />} /> */}
             </Routes>
+            <Home_work />
             <Footer />
         </Router>
 
