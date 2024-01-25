@@ -3,6 +3,7 @@ import React from 'react'
 import Display from './Display';
 
 import { motion } from 'framer-motion';
+import Home_work from './Home_work';
 
 const Home = () => {
   return (
@@ -28,11 +29,13 @@ const Home = () => {
           </div>
         </a>
       </div>
+
+      <div>
+        <Home_work />
+      </div>
+
     </section>
   )
 }
 
 export default Home
-
-// className='w-full h-screen relative'
-// className='absolute top-1/2 left 1-2 transform -translate-x-1/2 -translate-y-1/2 z-10'

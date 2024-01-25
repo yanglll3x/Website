@@ -33,7 +33,6 @@ const App = () => {
                 <Route path="/work_gamedesign" element={<Work_gamedesign />} />
                 {/* <Route path="/home_work" element={<Home_work />} /> */}
             </Routes>
-            <Home_work />
             <Footer />
         </Router>
 
