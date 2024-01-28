@@ -16,15 +16,15 @@ import PearlandCoin_thumbnail from '../assets/images/PearlandCoin_thumbnail.png'
 import Home_work from './Home_work';
 
 const Work_9903unity = () => (
-  <section className='max-w-5xl home-screen relative mx-auto sm:p-11 pb-12 !pt-[86px] px-8 min-h-[calc(100vh-80px)]'>
+  <section className='max-w-5xl home-screen relative mx-auto sm:p-11 pb-12 !pt-[86px] min-h-[calc(100vh-80px)]'>
     <div className='flex flex-col w-full items-center'>
-      <img src={PearlandCoin_thumbnail} alt='ExplainVideoImage2' className='w-full h-auto' />
+      <img src={PearlandCoin_thumbnail} alt='ExplainVideoImage2' className='w-full h-[calc(100vh-90px)] object-cover' />
     </div>
 
 
-    <div className='absolute xs:bottom-5 bottom-2 w-full flex justify-center home-work-button'>
+    <div className='absolute xs:bottom-5 bottom-2 left-1/2 transform -translate-x-1/2 w-full flex justify-center home-work-button home-screen'>
         <a href='#PearlandCoin_Intro'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-teal-300 flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-teal-300 flex justify-center items-start '>
             <motion.div
               animate={{
                 y: [0, 24, 0],

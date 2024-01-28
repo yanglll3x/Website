@@ -65,18 +65,18 @@ const Home_work = () => {
                 {pastGrids.map((past, index) => (
                     <div key={`past-${index}`} className='card'>
                     <Link
-                        to={past.pastLink}
+                        to={past.link}
                         target='_blank'
                         rel='noopeneer noreferrer'
                         className='text-gray-500 font-light font-base text-sm'
                     >
                         <img
-                        src={past.pastUrl}
-                        alt={past.pastName}
+                        src={past.worksUrl}
+                        alt={past.worksName}
                         className='w-full h-auto object-contain'
                     />
                         <div className='text-center mt-2'>
-                        <p>{past.pastName}</p>
+                        <p>{past.worksName}</p>
                         </div>   
                     </Link>
                     </div>

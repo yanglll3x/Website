@@ -1,18 +1,3 @@
-// import { meta, shopify, starbucks, tesla } from "../assets/images";
-// import {
-//     ae,
-//     ai_logo,
-//     arduino_logo,
-//     blender_logo,
-//     csharp_logo,
-//     css_logo,
-//     excel_logo,
-//     github_logo,
-//     html_logo,
-//     maya_logo,
-//     p5js,
-//     unity
-// } from "../assets/icons";
 
 import ae from "../assets/icons/ae.svg";
 import ai_logo from "../assets/icons/ai_logo.svg";
@@ -42,6 +27,12 @@ import arduinoGrid from '../assets/images/arduino.gif';
 import vuw314Grid from '../assets/images/vuw314.gif';
 import vuwcodingGrid from '../assets/images/vuwcoding.png';
 import gamedesignGrid from '../assets/images/micebreaker.png';
+import p5js1 from '../assets/images/p5js1.png';
+import p5js2 from '../assets/images/p5js2.png';
+import p5js3 from '../assets/images/p5js3.png';
+import p5js4 from '../assets/images/p5js4.png';
+import p5js5 from '../assets/images/p5js5.png';
+
 
 
 export const skills = [
@@ -183,50 +174,65 @@ export const worksGrids = [
         worksName: 'Blooming World',
         worksUrl: mayaGrid,
         link: '/work_9320',
+        description: 'aaaaaaaaaa',
+        tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Whispered Bonds',
         worksUrl: unityGrid,
         link: '/work_9903unity',
+        description: 'aaaaaaaaaa',
+        tags: ["Mobile App"]
     },
     {
         worksName: 'Explainer Video',
         worksUrl: pearlGrid,
         link: '/work_explainer',
+        description: 'aaaaaaaaaa',
+        tags: ["UI/UX"]
     },
     {
         worksName: 'Logo & Brand Identity',
         worksUrl: logoGrid,
         link: '/work_logo',
+        description: 'aaaaaaaaaa',
+        tags: ["Web App", "UI/UX"]
     },
     {
         worksName: 'Emotional Top Hat',
         worksUrl: arduinoGrid,
         link: '/work_9316arduino',
+        description: 'aaaaaaaaaa',
+        tags: ["All"]
     },
-    // {
-    //     worksName: '',
-    //     worksUrl: PersonalPhoto,
-    // },
 ];
 
 export const pastGrids = [
     {
-        pastName: 'p5.js Creative Coding',
-        pastUrl: vuwcodingGrid,
-        pastLink: '/work_p5js',
+        worksName: 'p5.js Creative Coding',
+        worksUrl: vuwcodingGrid,
+        link: '/work_p5js',
+        description: 'aaaaaaaaaa',
+        tags: ["Web App", "UI/UX"]
     },
     {
-        pastName: 'Audio Visual Work: Wandering',
-        pastUrl: vuw314Grid,
-        pastLink: '/work_vuwaudio',
+        worksName: 'Audio Visual Work: Wandering',
+        worksUrl: vuw314Grid,
+        link: '/work_vuwaudio',
+        description: 'aaaaaaaaaa',
+        tags: ["Web App", "UI/UX"]
     },
     {
-        pastName: 'Game Design: Micebreaker',
-        pastUrl: gamedesignGrid,
-        pastLink: '/work_gamedesign',
+        worksName: 'Game Design: Micebreaker',
+        worksUrl: gamedesignGrid,
+        link: '/work_gamedesign',
+        description: 'aaaaaaaaaassssssssssssssssss',
+        tags: ["Web App", "UI/UX"]
     },
 ];
+
+export const worksTotal = worksGrids.concat(pastGrids);
+
 
 export const startingFeatures = [
     'Find a world that suits you and you want to enter',
@@ -234,3 +240,36 @@ export const startingFeatures = [
     'No need to beat around the bush, just stay on the gas and have fun',
   ];
 
+
+  export const explorep5js = [
+    {
+      id: 'p5js-1',
+      imgUrl: p5js1,
+      title: 'The Water of Clock',
+      link: 'https://yanglll3x.github.io/p5js_The-Water-of-Clock/',
+    },
+    {
+      id: 'p5js-2',
+      imgUrl: p5js2,
+      title: 'Arc Lines',
+      link: 'https://yanglll3x.github.io/p5js_Arc-Lines/',
+    },
+    {
+      id: 'p5js-3',
+      imgUrl: p5js3,
+      title: 'Color Glyphs',
+      link: 'https://yanglll3x.github.io/p5js_Color-Glyphs/',
+    },
+    {
+      id: 'p5js-4',
+      imgUrl: p5js4,
+      title: 'Look At My Cat',
+      link: 'https://yanglll3x.github.io/p5js_LOOK-AT-MY-CAT/',
+    },
+    {
+      id: 'p5js-5',
+      imgUrl: p5js5,
+      title: 'BlueBlue Milkly Way',
+      link: 'https://yanglll3x.github.io/p5js_BlueBlue-Milky-Way/',
+    },
+  ];
