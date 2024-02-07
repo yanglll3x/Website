@@ -6,7 +6,7 @@ import Tower from '../models/Tower';
 import Sky from '../models/Sky';
 import { OrbitControls, Preload } from '@react-three/drei';
 
-const Display = () => {
+const Display = ({ isHome }) => {
   const [isRotating, setIsRotating] =useState(false);
 
   const adjustTowerForScreen = () => {
@@ -23,10 +23,12 @@ const Display = () => {
     return [screenScale, screenPosition, rotation]
   }
 
+  const className = isHome ? "w-full h-screen relative" : "w-full h-[calc(100vh-80px)] relative";
+
   const [isTowerScale, isTowerPosition, isTowerRotation] = adjustTowerForScreen();
 
   return (
-    <section className='w-full h-screen relative'>
+    <section className={className}>
       <Canvas 
         className = {`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"

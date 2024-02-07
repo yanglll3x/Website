@@ -47,13 +47,13 @@ const Work_9903unity = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-        <div className="absolute w-full h-[200px] bg-gradient-to-r from-emerald-500 from-10% via-lime-500 via-30% to-yellow-500 to-90%  rounded-tl-[140px] z-[0] -top-[30px]"/>
+        <div className="absolute w-full h-[200px] bg-gradient-to-r from-emerald-500 from-10% via-lime-500 via-30% to-yellow-500 to-90% rounded-tl-[140px] rounded-tr-[10px] z-[0] -top-[30px]"/>
 
         {/* Image */}
         <img
           src={unityGrid}
           alt="Whispered Bonds"
-          className="w-full sm:h-[350px] h-[240px] object-cover rounded-tl-[140px] z-10 relative"
+          className="w-full sm:h-[350px] h-[240px] object-cover rounded-tl-[140px] rounded-br-[5px] rounded-bl-[5px] z-10 relative"
         />
 
         <a href="#explore">

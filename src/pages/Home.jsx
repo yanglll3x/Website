@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className={`w-full home-screen relative mx-auto `}>
       <div>
-        <Display />
+        <Display isHome={true}/>
       </div>
       
       <div className='absolute xs:bottom-5 bottom-2 w-full flex justify-center home-work-button'>

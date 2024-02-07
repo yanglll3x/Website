@@ -174,59 +174,59 @@ export const worksGrids = [
         worksName: 'Blooming World',
         worksUrl: mayaGrid,
         link: '/work_9320',
-        description: 'aaaaaaaaaa',
+        description: 'Maya CGI Modelling',
         tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Whispered Bonds',
         worksUrl: unityGrid,
         link: '/work_9903unity',
-        description: 'aaaaaaaaaa',
+        description: 'Unity Narrative Speaking',
         tags: ["Mobile App"]
     },
     {
-        worksName: 'Explainer Video',
+        worksName: 'Currency and Coin',
         worksUrl: pearlGrid,
         link: '/work_explainer',
-        description: 'aaaaaaaaaa',
+        description: 'Explainer Video',
         tags: ["UI/UX"]
     },
     {
-        worksName: 'Logo & Brand Identity',
+        worksName: 'Pearl Standard',
         worksUrl: logoGrid,
         link: '/work_logo',
-        description: 'aaaaaaaaaa',
+        description: 'Logo & Brand Identity',
         tags: ["Web App", "UI/UX"]
     },
     {
         worksName: 'Emotional Top Hat',
         worksUrl: arduinoGrid,
         link: '/work_9316arduino',
-        description: 'aaaaaaaaaa',
+        description: 'Wearable Project',
         tags: ["All"]
     },
 ];
 
 export const pastGrids = [
     {
-        worksName: 'p5.js Creative Coding',
+        worksName: 'Creative Coding',
         worksUrl: vuwcodingGrid,
         link: '/work_p5js',
-        description: 'aaaaaaaaaa',
+        description: 'p5.js',
         tags: ["Web App", "UI/UX"]
     },
     {
-        worksName: 'Audio Visual Work: Wandering',
+        worksName: 'Wandering',
         worksUrl: vuw314Grid,
         link: '/work_vuwaudio',
-        description: 'aaaaaaaaaa',
+        description: 'Audio Visual Work',
         tags: ["Web App", "UI/UX"]
     },
     {
-        worksName: 'Game Design: Micebreaker',
+        worksName: 'Micebreaker',
         worksUrl: gamedesignGrid,
         link: '/work_gamedesign',
-        description: 'aaaaaaaaaassssssssssssssssss',
+        description: 'Game Design',
         tags: ["Web App", "UI/UX"]
     },
 ];
