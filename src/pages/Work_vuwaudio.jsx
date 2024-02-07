@@ -6,15 +6,15 @@ import StartSteps from '../components/StartSteps';
 import { startingFeatures } from '../constants';
 
 import ReactPlayer from 'react-player';
-import PearlandCoinVideo from '../assets/videos/PearlandCoin.mp4';
-import PearlandCoin_thumbnail from '../assets/images/PearlandCoin_thumbnail.png';
 
 import { slideIn, staggerContainer, textVariant, fadeIn, planetVariants } from '../utils/motion';
 
-import unityGrid from '../assets/images/unity.gif';
-import unity from "../assets/icons/unity.svg";
-import stamp from "../assets/images/stamp.png";
-import arrowdown from "../assets/icons/arrow-down.svg";
+// import WanderingCover from '../assets/images/WanderingCover.png';
+// import Wan_Pro1 from '../assets/images/Wan_Pro1.png';
+// import Wan_Pro2 from '../assets/images/Wan_Pro2.png';
+// import Wan_Pro3 from '../assets/images/Wan_Pro3.png';
+// import Wan_Pro4 from '../assets/images/Wan_Pro4.png';
+// import Wan_Pro5 from '../assets/images/Wan_Pro5.png';
 
 
 const Work_vuwaudio = () => {
@@ -36,27 +36,14 @@ const Work_vuwaudio = () => {
 
         {/* Whispered Bonds Title */}
         <div className="flex justify-center items-center flex-col relative z-10">
-          <motion.h1 variants={textVariant(1.1)} className='font-bold lg:text-[100px] md:text-[80px] sm:text-[60px] text-[44px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>
-          Whispered
+          <motion.h1 variants={textVariant(1.1)} className='font-bold lg:text-[92px] md:text-[84px] sm:text-[60px] text-[54px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>
+            Wandering
           </motion.h1>
-
-          <motion.div
-            variants={textVariant(1.2)}
-            className="flex flex-row justify-center items-center"
-          >
-            <h1 className='font-bold lg:text-[100px] md:text-[80px] sm:text-[60px] text-[44px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>B</h1>
-            <div className='
-              md:w-[148px] sm:w-[55px] w-[40px] 
-              md:h-[78px] sm:h-[38px] h-[28px] 
-              md:border-[18px] border-[9px] rounded-[50px] border-white sm:mx-1 mx-[6px]' />
-            <h1 className='font-bold lg:text-[100px] md:text-[80px] sm:text-[60px] text-[44px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>nds</h1>
-          </motion.div>
-        </div>
 
         {/* Float Button to Skip */}
         <motion.div
           variants={slideIn('right', 'tween', 0.2, 1)}
-          className="relative w-full md:-mt-[8px] -mt-[8px]"
+          className="relative w-full md:-mt-[2px] mt-[10px]"
         >
           <div className="absolute w-full h-[200px] bg-gradient-to-r from-emerald-500 from-10% via-lime-500 via-30% to-yellow-500 to-90%  rounded-tr-[140px] z-[0] -top-[30px]"/>
 
@@ -92,8 +79,23 @@ const Work_vuwaudio = () => {
         </motion.p>
 
         
-        {/*  */}
-        <div className='sm:p-16 xs:p-8 px-6 py-12 relative z-10'>
+
+        <div className='relative w-full' style={{ paddingTop: '56.25%' }}>
+          <ReactPlayer 
+            url='https://www.youtube.com/watch?v=mzAkG8Q-gEs'
+            className='react-player'
+            style={{ position: 'absolute', top: 0, left: 0 }}
+            width='100%' 
+            height='100%' 
+            controls
+            playing={playing}
+            light={WanderingCover}
+            onClickPreview={handlePlayVideo}
+          />
+        </div>
+        
+        {/* Designing Process */}
+        <div className='relative w-full z-10'>
           <motion.div
             variants={staggerContainer}
             initial="hidden"
