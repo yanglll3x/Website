@@ -45,7 +45,6 @@ const Work_vuwaudio = () => {
         <motion.div
           variants={slideIn('right', 'tween', 0.2, 1)}
           className="relative w-full md:-mt-[2px] mt-[10px]"
-          className="relative w-full md:-mt-[2px] mt-[10px]"
         >
           <div className="absolute w-full h-[200px] bg-gradient-to-r from-cyan-500 from-10% via-sky-500 via-30% to-purple-400 to-90%  rounded-tr-[140px] rounded-tl-[10px] z-[0] -top-[30px]"/>
 
