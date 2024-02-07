@@ -37,13 +37,15 @@ const Work_vuwaudio = () => {
         {/* Title */}
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1 variants={textVariant(1.1)} className='font-bold lg:text-[92px] md:text-[84px] sm:text-[60px] text-[54px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>
+            Wandering
+          <motion.h1 variants={textVariant(1.1)} className='font-bold lg:text-[92px] md:text-[84px] sm:text-[60px] text-[54px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>
           Wandering
           </motion.h1>
-        </div>
 
         {/* Float Button to Skip */}
         <motion.div
           variants={slideIn('right', 'tween', 0.2, 1)}
+          className="relative w-full md:-mt-[2px] mt-[10px]"
           className="relative w-full md:-mt-[2px] mt-[10px]"
         >
           <div className="absolute w-full h-[200px] bg-gradient-to-r from-cyan-500 from-10% via-sky-500 via-30% to-purple-400 to-90%  rounded-tr-[140px] rounded-tl-[10px] z-[0] -top-[30px]"/>
@@ -90,6 +92,24 @@ const Work_vuwaudio = () => {
           <TypingText title="| Video" textStyles="text-center font-semibold m-4" />
           
         </motion.div>
+        
+
+        <div className='relative w-full' style={{ paddingTop: '56.25%' }}>
+          <ReactPlayer 
+            url='https://www.youtube.com/watch?v=mzAkG8Q-gEs'
+            className='react-player'
+            style={{ position: 'absolute', top: 0, left: 0 }}
+            width='100%' 
+            height='100%' 
+            controls
+            playing={playing}
+            light={WanderingCover}
+            onClickPreview={handlePlayVideo}
+          />
+        </div>
+        
+        {/* Designing Process */}
+        <div className='relative w-full z-10'>
         
 
         <div className='relative w-full' style={{ paddingTop: '56.25%' }}>
