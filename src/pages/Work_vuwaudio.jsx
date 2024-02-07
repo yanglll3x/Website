@@ -38,9 +38,8 @@ const Work_vuwaudio = () => {
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1 variants={textVariant(1.1)} className='font-bold lg:text-[92px] md:text-[84px] sm:text-[60px] text-[54px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>
             Wandering
-          <motion.h1 variants={textVariant(1.1)} className='font-bold lg:text-[92px] md:text-[84px] sm:text-[60px] text-[54px] lg:leading-[108.4px] md:leading-[94.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white'>
-          Wandering
           </motion.h1>
+        </div>
 
         {/* Float Button to Skip */}
         <motion.div
@@ -107,25 +106,7 @@ const Work_vuwaudio = () => {
             onClickPreview={handlePlayVideo}
           />
         </div>
-        
-        {/* Designing Process */}
-        <div className='relative w-full z-10'>
-        
 
-        <div className='relative w-full' style={{ paddingTop: '56.25%' }}>
-          <ReactPlayer 
-            url='https://www.youtube.com/watch?v=mzAkG8Q-gEs'
-            className='react-player'
-            style={{ position: 'absolute', top: 0, left: 0 }}
-            width='100%' 
-            height='100%' 
-            controls
-            playing={playing}
-            light={WanderingCover}
-            onClickPreview={handlePlayVideo}
-          />
-        </div>
-        
         {/* Designing Process */}
         <div className='relative w-full z-10'>
           <motion.div
