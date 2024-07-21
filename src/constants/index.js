@@ -11,11 +11,22 @@ import html_logo from "../assets/icons/html_logo.svg";
 import maya_logo from "../assets/icons/maya_logo.svg";
 import p5js from "../assets/icons/p5js.svg";
 import unity from "../assets/icons/unity.svg";
+import procreate from "../assets/icons/procreate_logo.svg";
+import photoshop from "../assets/icons/photoshop.svg";
+import indesign_logo from "../assets/icons/indesign_logo.svg";
+import figma_logo from "../assets/icons/figma_logo.svg";
+import react_logo from "../assets/icons/react_logo.svg";
+import js_logo from "../assets/icons/js_logo.svg";
+import canva_logo from "../assets/icons/canva_logo.svg";
+import miro_logo from "../assets/icons/miro_logo.svg";
+import office_logo from "../assets/icons/office_logo.svg";
 
 import pearlLogo from "../assets/images/pearlLogo.png";
 import unswLogo from "../assets/images/unswLogo.png";
 import vuwLogo from "../assets/images/vuwLogo.png";
 import uoaLogo from "../assets/images/uoaLogo.png";
+import literoomLogo from "../assets/images/unswLITEroomLogo.png";
+
 
 import PersonalPhoto from '../assets/images/photo.jpg';
 import examplePhoto from '../assets/images/example.gif';
@@ -35,67 +46,142 @@ import p5js5 from '../assets/images/p5js5.png';
 
 
 
-export const skills = [
-    {
-        imageUrl: maya_logo,
-        name: "Maya",
-        type: "3D Modelling",
-    },
-    {
-        imageUrl: blender_logo,
-        name: "Blender",
-        type: "3D Modelling",
-    },
+export const skillsGraphics = [
     {
         imageUrl: ai_logo,
         name: "Adobe Illustrator",
-        type: "Graphics Design",
+        type: "Graphics",
     },
     {
         imageUrl: ae,
         name: "Adobe After Effect",
-        type: "Motion Graphics",
+        type: "Graphics",
+    },
+    {
+        imageUrl: procreate,
+        name: "Procreate",
+        type: "Graphics",
+    },
+    {
+        imageUrl: photoshop,
+        name: "Photoshop",
+        type: "Graphics",
+    },
+    {
+        imageUrl: indesign_logo,
+        name: "InDesign",
+        type: "Graphics",
+    },
+    {
+        imageUrl: figma_logo,
+        name: "Figma",
+        type: "Graphics",
+    }
+];
+export const skillsModel = [
+    {
+        imageUrl: maya_logo,
+        name: "Maya",
+        type: "Modelling",
+    },
+    {
+        imageUrl: blender_logo,
+        name: "Blender",
+        type: "Modelling",
     },
     {
         imageUrl: unity,
         name: "Unity",
-        type: "Engine Development",
-    },
-    {
-        imageUrl: github_logo,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: arduino_logo,
-        name: "Arduino",
-        type: "Prototyping Development",
-    },
+        type: "Modelling",
+    }
+];
+export const skillsCode = [
     {
         imageUrl: html_logo,
         name: "HTML",
-        type: "Frontend",
+        type: "Coding",
     },
     {
         imageUrl: css_logo,
         name: "CSS",
-        type: "Frontend",
+        type: "Coding",
     },
     {
-        imageUrl: p5js,
-        name: "p5.js",
-        type: "Creative Coding",
+        imageUrl: js_logo,
+        name: "JavaScript",
+        type: "Coding",
     },
     {
-        imageUrl: excel_logo,
-        name: "Excel",
-        type: "Data Visualization",
+        imageUrl: react_logo,
+        name: "React",
+        type: "Coding",
     },
     {
         imageUrl: csharp_logo,
         name: "C#",
-        type: "Programming",
+        type: "Coding",
+    },
+    {
+        imageUrl: arduino_logo,
+        name: "Arduino",
+        type: "Coding",
+    },
+    {
+        imageUrl: p5js,
+        name: "p5.js",
+        type: "Coding",
     }
+];
+export const skillsDoc = [
+    {
+        imageUrl: canva_logo,
+        name: "Canva",
+        type: "Documentation",
+    },
+    {
+        imageUrl: miro_logo,
+        name: "Miro",
+        type: "Documentation",
+    },
+    {
+        imageUrl: github_logo,
+        name: "GitHub",
+        type: "Coding",
+    },
+    {
+        imageUrl: office_logo,
+        name: "Microsoft Office 365",
+        type: "Documentation",
+    },
+    {
+        imageUrl: excel_logo,
+        name: "Excel",
+        type: "Documentation",
+    }
+];
+
+export const relative = [
+    {
+        title: "Immersive Designer",
+        company_name: "UNSW LITEroom",
+        type: "Antarctic Emergency Sim VR Capstone Project",
+        icon: literoomLogo,
+        iconBg: "#ffeea4",
+        date: "Mar 2024 - Jul 2024",
+        task1: "Patient Scenario Design",
+        points1: [
+            "Conducted extensive research on various Triage Systems, selecting and designing most suitable one for the project.",
+            "Designed comprehensive two patient scenarios and medical tasks within the VR environment.",
+            "Created scalable solutions to ensure future development and reusability.",
+        ],
+        task2: "Interactive System Development",
+        points2: [
+            "Developed interactive components based on the designed patient scenarios in Unity.",
+            "Implemented key interactive actions to enhance the user experience in the VR simulation.",
+            "Developed a comprehensive Pain Level System interaction module.",
+            "Provided detailed plans for future developers to expand and refine the interactive system.",
+        ],
+    },
 ];
 
 export const experiences = [
@@ -122,8 +208,7 @@ export const experiences = [
         ],
         task3: "Explainer Video Production",
         points3: [
-            "Individually Designed.",
-            "Independently conceptualized and created storyboards for explainer videos.",
+            "Individually Designed, independently conceptualized and created storyboards for explainer videos.",
             "Wrote engaging and informative scripts tailored to the product.",
             "Managed and produced the entire production process, including animation and video editing.",
             "Handled all aspects of sound design, including background music.",
@@ -140,9 +225,10 @@ export const educations = [
         type: " ",
         icon: unswLogo,
         iconBg: "#ffeea4",
-        date: "Feb 2023 - present",
+        date: "Feb 2023 - Sep 2024",
         points: [
             "Immersive Design, Narrative and Sensemaking, Models and Systems Design, Solution Design, Managing Immersive Projects, etc.",
+            "UNSW Postgraduate Dean’s List of 2023",
         ],
     },
     {
@@ -174,14 +260,21 @@ export const worksGrids = [
         worksName: 'Blooming World',
         worksUrl: mayaGrid,
         link: '/work_9320',
-        description: 'Maya CGI Modelling',
+        description: '3D Modelling',
+        tags: ["Web App", "Mobile App"]
+    },
+    {
+        worksName: 'Blooming World',
+        worksUrl: mayaGrid,
+        link: '/work_9320',
+        description: '3D Modelling',
         tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Whispered Bonds',
         worksUrl: unityGrid,
         link: '/work_9903unity',
-        description: 'Unity Narrative Speaking',
+        description: 'Narrative Design',
         tags: ["Mobile App"]
     },
     {
@@ -195,7 +288,7 @@ export const worksGrids = [
         worksName: 'Pearl Standard',
         worksUrl: logoGrid,
         link: '/work_logo',
-        description: 'Logo & Brand Identity',
+        description: 'Brand Identity',
         tags: ["Web App", "UI/UX"]
     },
     {
@@ -205,6 +298,58 @@ export const worksGrids = [
         description: 'Wearable Project',
         tags: ["All"]
     },
+    {
+        worksName: 'Creative Coding',
+        worksUrl: vuwcodingGrid,
+        link: '/work_p5js',
+        description: 'p5.js',
+        tags: ["Web App", "UI/UX"]
+    },
+    {
+        worksName: 'Wandering',
+        worksUrl: vuw314Grid,
+        link: '/work_vuwaudio',
+        description: 'Audio Visual Work',
+        tags: ["Web App", "UI/UX"]
+    },
+    {
+        worksName: 'Micebreaker',
+        worksUrl: gamedesignGrid,
+        link: '/work_gamedesign',
+        description: 'Game Design',
+        tags: ["Web App", "UI/UX"]
+    },
+];
+
+export const selectedGrids = [
+    {
+        worksName: 'Blooming World',
+        worksUrl: mayaGrid,
+        link: '/work_9320',
+        description: '3D Modelling',
+        tags: ["Web App", "Mobile App"]
+    },
+    {
+        worksName: 'Blooming World',
+        worksUrl: mayaGrid,
+        link: '/work_9320',
+        description: '3D Modelling',
+        tags: ["Web App", "Mobile App"]
+    },
+    {
+        worksName: 'Whispered Bonds',
+        worksUrl: unityGrid,
+        link: '/work_9903unity',
+        description: 'Narrative Design',
+        tags: ["Mobile App"]
+    },
+    {
+        worksName: 'Currency and Coin',
+        worksUrl: pearlGrid,
+        link: '/work_explainer',
+        description: 'Explainer Video',
+        tags: ["UI/UX"]
+    }, 
 ];
 
 export const pastGrids = [
