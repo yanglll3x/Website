@@ -1,10 +1,17 @@
 import React from 'react'
+
+import { motion } from 'framer-motion';
+import { staggerContainer, fadeIn, easeIn } from '../utils/motion';
+
 import web_header from '../assets/images/web_assets/Header.png';
 import arrowdown from "../assets/icons/arrow-down.svg";
+import { TitleText } from '../components/CustomTexts';
+
 
 const Portfolio_Website = () => {
   return (
     <section className='max-w-7xl mx-auto'>
+      {/* Header */}
       <div className='relative'>
         <img 
           src={web_header} 
@@ -13,7 +20,7 @@ const Portfolio_Website = () => {
           style={{ maxWidth: '1600px', margin: '0 auto' }} 
         />
 
-        {/* Button */}
+        {/* --Button */}
         <a href="/" className='absolute' style={{ left: '10%', top: '62%' }}>
           <div
             className='bg-white rounded-md md:rounded-xl flex items-center'
@@ -50,8 +57,34 @@ const Portfolio_Website = () => {
         
       </div>
 
-      <div className='max-container'>
-        {/* Other content */}
+      <div className='sm:p-16 xs:p-8 px-6 py-12 relative z-10 bg-white'>
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className={`max-w-[900px] w-full mx-auto flex flex-col gap-4`}
+        >
+          {/* Overview-Title */}
+          <TitleText
+            title={(
+              <>Overview</>
+            )}  
+            textStyles="text-center text-blue-500"
+          />
+          {/* Overview-Description */}
+          <motion.p
+            variants={easeIn('tween')}
+            className='font-normal text-lg text-center text-black-500'
+          >
+            <span>Ea rerum voluptatem magni dolorem adipisci est. Labore sed sed tempore laborum et et ut veniam. Ullam sed et explicabo dolor soluta aut quo quidem nobis.
+            </span>
+
+          </motion.p>
+          
+
+        </motion.div>
+        
       </div>
     </section>
   )
