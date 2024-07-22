@@ -43,11 +43,11 @@ const Home_work = () => {
                       <motion.div
                         whileHover={{ opacity: [0, 1] }}
                         transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
-                        className="app__work-hover-big app__flex"
+                        className="app__work-hover app__flex"
                       >
                       </motion.div>
                     </div>
-                    <div className="app__work-content-big app__flex">
+                    <div className="app__work-content app__flex">
                       <h4 className="text-base">{work.worksName}</h4>
                       <p className="text-base font-light text-gray-400 break-words" style={{ marginTop: 10 }}>{work.description}</p>
                     </div>

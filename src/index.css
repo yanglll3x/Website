@@ -199,3 +199,13 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+
+/* blue */
+/* .navbar-icon {
+  filter: invert(37%) sepia(85%) saturate(3500%) hue-rotate(180deg) brightness(96%) contrast(97%);
+} */
+
+.navbar-icon {
+  filter: brightness(0%) contrast(100%);
+}
+
