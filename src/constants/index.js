@@ -43,6 +43,8 @@ import p5js2 from '../assets/images/p5js2.png';
 import p5js3 from '../assets/images/p5js3.png';
 import p5js4 from '../assets/images/p5js4.png';
 import p5js5 from '../assets/images/p5js5.png';
+import websiteGrid from '../assets/images/website.png';
+import antarcticGrid from '../assets/images/antarctic.png';
 
 
 
@@ -257,65 +259,72 @@ export const educations = [
 
 export const worksGrids = [
     {
-        worksName: 'Blooming World',
-        worksUrl: mayaGrid,
-        link: '/work_9320',
-        description: '3D Modelling',
+        worksName: 'Portfolio Website',
+        worksUrl: websiteGrid,
+        link: '/portfolio_website',
+        description: 'Web Dev & Design',
+        tags: ["Web App", "Mobile App"]
+    },
+    {
+        worksName: 'Antarctic VR Sim',
+        worksUrl: antarcticGrid,
+        link: '/antarctic_sim_project',
+        description: 'VR Simulation',
         tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Blooming World',
         worksUrl: mayaGrid,
-        link: '/work_9320',
+        link: '/blooming_world',
         description: '3D Modelling',
         tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Whispered Bonds',
         worksUrl: unityGrid,
-        link: '/work_9903unity',
+        link: '/whispered_bonds',
         description: 'Narrative Design',
         tags: ["Mobile App"]
     },
     {
         worksName: 'Currency and Coin',
         worksUrl: pearlGrid,
-        link: '/work_explainer',
+        link: '/currency_and_coin',
         description: 'Explainer Video',
         tags: ["UI/UX"]
     },
     {
         worksName: 'Pearl Standard',
         worksUrl: logoGrid,
-        link: '/work_logo',
+        link: '/logo_brand_identity',
         description: 'Brand Identity',
         tags: ["Web App", "UI/UX"]
     },
     {
         worksName: 'Emotional Top Hat',
         worksUrl: arduinoGrid,
-        link: '/work_9316arduino',
+        link: '/emotional_top_hat',
         description: 'Wearable Project',
         tags: ["All"]
     },
     {
         worksName: 'Creative Coding',
         worksUrl: vuwcodingGrid,
-        link: '/work_p5js',
+        link: '/creative_coding',
         description: 'p5.js',
         tags: ["Web App", "UI/UX"]
     },
     {
         worksName: 'Wandering',
         worksUrl: vuw314Grid,
-        link: '/work_vuwaudio',
+        link: '/wandering',
         description: 'Audio Visual Work',
         tags: ["Web App", "UI/UX"]
     },
     {
         worksName: 'Micebreaker',
         worksUrl: gamedesignGrid,
-        link: '/work_gamedesign',
+        link: '/micebreaker',
         description: 'Game Design',
         tags: ["Web App", "UI/UX"]
     },
@@ -323,30 +332,30 @@ export const worksGrids = [
 
 export const selectedGrids = [
     {
-        worksName: 'Blooming World',
-        worksUrl: mayaGrid,
-        link: '/work_9320',
-        description: '3D Modelling',
+        worksName: 'Portfolio Website',
+        worksUrl: websiteGrid,
+        link: '/portfolio_website',
+        description: 'Web Development & Design',
         tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Blooming World',
         worksUrl: mayaGrid,
-        link: '/work_9320',
+        link: '/blooming_world',
         description: '3D Modelling',
         tags: ["Web App", "Mobile App"]
     },
     {
         worksName: 'Whispered Bonds',
         worksUrl: unityGrid,
-        link: '/work_9903unity',
+        link: '/whispered_bonds',
         description: 'Narrative Design',
         tags: ["Mobile App"]
     },
     {
         worksName: 'Currency and Coin',
         worksUrl: pearlGrid,
-        link: '/work_explainer',
+        link: '/currency_and_coin',
         description: 'Explainer Video',
         tags: ["UI/UX"]
     }, 

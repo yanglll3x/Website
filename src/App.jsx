@@ -3,15 +3,17 @@ import { Route, BrowserRouter as Router,  Routes } from 'react-router-dom';
 import { Home, About, Works, Contact, Display } from './pages';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Work_9320 from './pages/Work_9320';
-import Work_9903unity from './pages/Work_9903unity';
-import Work_explainer from './pages/Work_explainer';
-import Work_logo from './pages/Work_logo';
-import Work_9316arduino from './pages/Work_9316arduino';
-import Work_p5js from './pages/Work_p5js';
-import Work_vuwaudio from './pages/Work_vuwaudio';
-import Work_gamedesign from './pages/Work_gamedesign';
+import Blooming_world from './pages/Blooming_world';
+import Whispered_Bonds from './pages/Whispered_Bonds';
+import Currency_and_coin from './pages/Currency_and_coin';
+import Logo_Brand_Identity from './pages/Logo_Brand_Identity';
+import Emotional_Top_Hat from './pages/Emotional_Top_Hat';
+import Wandering from './pages/Wandering';
+import Micebreaker from './pages/Micebreaker';
 import Home_work from './pages/Home_work';
+import Portfolio_Website from './pages/Portfolio_Website';
+import Antarctic_Sim_Project from './pages/Antarctic_Sim_Project';
+import Creative_Coding from './pages/Creative_Coding';
 
 const App = () => {
   return (
@@ -23,15 +25,16 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/works" element={<Works />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/work_9320" element={<Work_9320 />} />
-                <Route path="/work_9903unity" element={<Work_9903unity />} />
-                <Route path="/work_explainer" element={<Work_explainer />} />
-                <Route path="/work_logo" element={<Work_logo />} />
-                <Route path="/work_9316arduino" element={<Work_9316arduino />} />
-                <Route path="/work_p5js" element={<Work_p5js />} />
-                <Route path="/work_vuwaudio" element={<Work_vuwaudio />} />
-                <Route path="/work_gamedesign" element={<Work_gamedesign />} />
-                {/* <Route path="/home_work" element={<Home_work />} /> */}
+                <Route path="/blooming_world" element={<Blooming_world />} />
+                <Route path="/whispered_bonds" element={<Whispered_Bonds />} />
+                <Route path="/currency_and_coin" element={<Currency_and_coin />} />
+                <Route path="/logo_brand_identity" element={<Logo_Brand_Identity />} />
+                <Route path="/emotional_top_hat" element={<Emotional_Top_Hat />} />
+                <Route path="/creative_coding" element={<Creative_Coding />} />
+                <Route path="/wandering" element={<Wandering />} />
+                <Route path="/micebreaker" element={<Micebreaker />} />
+                <Route path="/portfolio_website" element={<Portfolio_Website />} />
+                <Route path="/antarctic_sim_project" element={<Antarctic_Sim_Project />} />
             </Routes>
             <Footer />
         </Router>
