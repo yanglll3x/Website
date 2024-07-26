@@ -394,36 +394,51 @@ export const startingFeatures = [
     'No need to beat around the bush, just stay on the gas and have fun',
   ];
 
+export const websiteOverview = [
+    {   
+        title:'Timeline',
+        description:'No need to beat around the bush, just stay on the gas and have fun',
+    },
+    {   
+        title:'The Team',
+        description:'No need to beat around the bush, just stay on the gas and have fun',
+    },
+    {   
+        title:'My Role',
+        description:'No need to beat around the bush, just stay on the gas and have fun',
+    }
+];
 
-  export const explorep5js = [
-    {
-      id: 'p5js-1',
-      imgUrl: p5js1,
-      title: 'The Water of Clock',
-      link: 'https://yanglll3x.github.io/p5js_The-Water-of-Clock/',
-    },
-    {
-      id: 'p5js-2',
-      imgUrl: p5js2,
-      title: 'Arc Lines',
-      link: 'https://yanglll3x.github.io/p5js_Arc-Lines/',
-    },
-    {
-      id: 'p5js-3',
-      imgUrl: p5js3,
-      title: 'Color Glyphs',
-      link: 'https://yanglll3x.github.io/p5js_Color-Glyphs/',
-    },
-    {
-      id: 'p5js-4',
-      imgUrl: p5js4,
-      title: 'Look At My Cat',
-      link: 'https://yanglll3x.github.io/p5js_LOOK-AT-MY-CAT/',
-    },
-    {
-      id: 'p5js-5',
-      imgUrl: p5js5,
-      title: 'BlueBlue Milkly Way',
-      link: 'https://yanglll3x.github.io/p5js_BlueBlue-Milky-Way/',
-    },
-  ];
+
+export const explorep5js = [
+{
+    id: 'p5js-1',
+    imgUrl: p5js1,
+    title: 'The Water of Clock',
+    link: 'https://yanglll3x.github.io/p5js_The-Water-of-Clock/',
+},
+{
+    id: 'p5js-2',
+    imgUrl: p5js2,
+    title: 'Arc Lines',
+    link: 'https://yanglll3x.github.io/p5js_Arc-Lines/',
+},
+{
+    id: 'p5js-3',
+    imgUrl: p5js3,
+    title: 'Color Glyphs',
+    link: 'https://yanglll3x.github.io/p5js_Color-Glyphs/',
+},
+{
+    id: 'p5js-4',
+    imgUrl: p5js4,
+    title: 'Look At My Cat',
+    link: 'https://yanglll3x.github.io/p5js_LOOK-AT-MY-CAT/',
+},
+{
+    id: 'p5js-5',
+    imgUrl: p5js5,
+    title: 'BlueBlue Milkly Way',
+    link: 'https://yanglll3x.github.io/p5js_BlueBlue-Milky-Way/',
+},
+];

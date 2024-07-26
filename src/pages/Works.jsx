@@ -25,11 +25,7 @@ const Works = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='text-slate-500 mt-8 leading-relaxed'
         >
-            I've embarked on numerous projects throughout the years, but these are
-            the ones I hold closest to my heart. Many of them are open-source, so if
-            you come across something that piques your interest, feel free to
-            explore the codebase and contribute your ideas for further enhancements.
-            Your collaboration is highly valued!
+            I’ve created a diverse range of projects throughout my journey, such as 3D modelling, creative coding, web design & development, and other creative works. These projects reflect my ongoing growth and exploration across various fields, and I am continuously learning and developing! Feel free to explore them and keep an eye out for future updates.
         </motion.p>
 
         <div>
