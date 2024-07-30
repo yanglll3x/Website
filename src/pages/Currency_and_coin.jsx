@@ -24,7 +24,7 @@ const Currency_and_coin = () => {
   };
 
   return (
-    <section className='max-w-5xl mx-auto sm:p-11 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)]'>
+    <section className='max-w-7xl mx-auto sm:p-11 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)]'>
       <div className='flex flex-col w-full items-center'>
 
         {/* 图标？ */}

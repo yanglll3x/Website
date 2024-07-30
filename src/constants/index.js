@@ -300,13 +300,13 @@ export const worksGrids = [
         description: 'Brand Identity',
         tags: ["Web App", "UI/UX"]
     },
-    {
-        worksName: 'Emotional Top Hat',
-        worksUrl: arduinoGrid,
-        link: '/emotional_top_hat',
-        description: 'Wearable Project',
-        tags: ["All"]
-    },
+    // {
+    //     worksName: 'Emotional Top Hat',
+    //     worksUrl: arduinoGrid,
+    //     link: '/emotional_top_hat',
+    //     description: 'Wearable Project',
+    //     tags: ["All"]
+    // },
     {
         worksName: 'Creative Coding',
         worksUrl: vuwcodingGrid,
@@ -335,7 +335,14 @@ export const selectedGrids = [
         worksName: 'Portfolio Website',
         worksUrl: websiteGrid,
         link: '/portfolio_website',
-        description: 'Web Development & Design',
+        description: 'Web Dev & Design',
+        tags: ["Web App", "Mobile App"]
+    },
+    {
+        worksName: 'Antarctic VR Sim',
+        worksUrl: antarcticGrid,
+        link: '/antarctic_sim_project',
+        description: 'VR Simulation',
         tags: ["Web App", "Mobile App"]
     },
     {

@@ -259,8 +259,10 @@ const Portfolio_Website = () => {
 
 
       {/* END */}
-      <div className='rounded-b-lg md:rounded-b-[3rem] bg-[#7f94d5] p-16'>
-        <p className='text-center text-white font-semibold sm:text-2xl text-base font-poppins'> Thank you for watching!</p>
+
+
+      <div className='flex items-center justify-center rounded-b-lg md:rounded-b-[3rem] bg-[#7f94d5] p-[6%]'>
+        <p className='text-center text-white font-normal sm:font-semibold sm:text-2xl text-xs font-poppins'> Thank you for watching!</p>
       </div>
 
     </section>

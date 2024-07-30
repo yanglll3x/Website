@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Home_work = () => {
   return (
     <>
-    <div className='max-container'>
+    <div className='max-w-7xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)]'>
         <motion.div variants={textVariant()}>
           <p className='subhead-text'>
             Selected{" "}
