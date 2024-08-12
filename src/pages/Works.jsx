@@ -38,8 +38,8 @@ const Works = () => {
                     {worksGrids.map((work, index) => (
                 <Link
                   to={work.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  // target='_blank'
+                  // rel='noopener noreferrer'
                   className='text-gray-500 font-light font-base text-sm'
                   key={index}
                 >

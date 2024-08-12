@@ -35,6 +35,8 @@ const App = () => {
                 <Route path="/micebreaker" element={<Micebreaker />} />
                 <Route path="/portfolio_website" element={<Portfolio_Website />} />
                 <Route path="/antarctic_sim_project" element={<Antarctic_Sim_Project />} />
+
+                <Route path="*" element={<Home />} />
             </Routes>
             <Footer />
         </Router>
